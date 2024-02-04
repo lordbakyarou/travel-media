@@ -12,8 +12,6 @@ import { NavLink, useLocation } from "react-router-dom";
 const Navbar = () => {
   let { pathname } = useLocation();
 
-  console.log(pathname);
-
   return (
     <div className="flex items-center h-16 w-screen bg-dark-orange max-sm:justify-center shadow-md">
       <NavLink to="/">
