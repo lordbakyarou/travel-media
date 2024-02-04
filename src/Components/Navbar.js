@@ -31,7 +31,7 @@ const Navbar = () => {
               className={`${pathname === "/notification" ? "text-dark-orange" : "text-light-orange"} hover:text-dark-orange text-2xl`}
             />
           </NavLink>
-          <NavLink to="/bookmark">
+          <NavLink to="/post/detail/1">
             <FaBookmark
               className={`${pathname.includes("/post/detail/") ? "text-dark-orange" : "text-light-orange"} hover:text-dark-orange text-2xl`}
             />

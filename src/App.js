@@ -20,7 +20,6 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/post/detail/:id" element={<PostDetail />} />
         <Route path="/notification" element={<Notification />} />
-        <Route path="/bookmark" element={<Bookmark />} />
         <Route path="/user/details" element={<UserDetail />} />
       </Routes>
       <Footer className="absolute bottom-0 " />
