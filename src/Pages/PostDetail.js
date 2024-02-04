@@ -70,7 +70,7 @@ const PostDetail = () => {
       <div>
         <div className="text-2xl font-semibold flex flex-col justify-center gap-5">
           <p>More Post</p>
-          <div className="container grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 flex gap-10 flex-wrap ">
+          <div className="container grid grid-cols-3  max-md:grid-cols-2 max-sm:grid-cols-1 flex gap-10 flex-wrap ">
             {posts.map((post) => {
               if (post.id != openPost.id) {
                 return <Post post={post} key={post.id} />;
