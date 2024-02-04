@@ -23,7 +23,7 @@ const PostDetail = () => {
         <IoArrowBackCircleOutline className="" onClick={() => navigate("/")} />
         <p>Post Number {openPost.id}</p>
       </div>
-      <div className="flex gap-5 flex-col">
+      <div className="flex gap-5 max-sm:flex-col">
         <div className=" rounded-lg w-fit drop-shadow-xl ">
           <div className="w-96 max-sm:w-72 flex justify-between relative">
             <img
