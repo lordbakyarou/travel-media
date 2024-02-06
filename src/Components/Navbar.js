@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className="flex items-center max-lg:flex-col h-16 w-screen bg-dark-orange max-sm:justify-center shadow-md relative">
       <NavLink to="/">
         <div className="m-2 font-semibold text-white text-lg">
-          TravelMedia.i
+          TravelMedia.in
         </div>
       </NavLink>
       <div className="absolute Options max-lg:top-10 flex w-screen justify-center max-sm:hidden">
